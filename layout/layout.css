@@ -1,0 +1,373 @@
+.parent {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ecf2f7;
+    display: grid;
+    grid-template-columns: repeat(auto-fiم, minimax(0.5fr, 1.5fr));
+    gap: 30px 30px;
+    padding: 20px;
+
+}
+
+.child-one {
+    background-color: #733fc8;
+    background-image: url('../img/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position: 75% 0;
+    color: white;
+    border-radius: 20px;
+}
+
+.child-one .first {
+    margin-right: 20px;
+    top: 15px;
+    position: relative;
+    padding-left: 28px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.child-one .second {
+    margin-right: 20px;
+    top: -25px;
+    position: relative;
+    padding-left: 28px;
+    color: #A775F2;
+    font-size: 15px;
+}
+
+.child-one h4::before {
+    content: "";
+    background-image: url(../img/image-daniel.jpg);
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #A775F2;
+    border-radius: 50px;
+    flex-direction: row;
+    position: absolute;
+    left: -63px;
+    top: -9px;
+    background-size: 40px;
+}
+
+.child-one h4 {
+
+    display: inline;
+    margin-left: 30px;
+    position: relative;
+    left: 65px;
+    top: 26px;
+}
+
+.child-one h5 {
+
+    margin-left: 30px;
+    position: relative;
+    left: 65px;
+    top: 7px;
+    color: #A775F2;
+}
+
+
+.child-two {
+    background-color: #49556b;
+    border-radius: 20px;
+}
+
+.child-two h4::before {
+    content: "";
+    background-image: url(../img/image-jonathan.jpg);
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #D1D8DE;
+    border-radius: 50px;
+    flex-direction: row;
+    position: absolute;
+    left: -63px;
+    top: -9px;
+    background-size: 40px;
+}
+
+.child-two h4 {
+
+    display: inline;
+    margin-left: 30px;
+    position: relative;
+    left: 65px;
+    top: 26px;
+    color: #D1D8DE;
+}
+
+.child-two h5 {
+
+    margin-left: 30px;
+    position: relative;
+    left: 65px;
+    top: 7px;
+    color: #7d889b;
+}
+
+
+.child-two .first {
+    margin-right: 20px;
+    top: 15px;
+    position: relative;
+    padding-left: 28px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #D1D8DE;
+
+}
+
+.child-two .second {
+    margin-right: 20px;
+    top: -25px;
+    position: relative;
+    padding-left: 28px;
+    color: #7d889b;
+    font-size: 15px;
+}
+
+.child-three {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.child-three h4::before {
+    content: "";
+    background-image: url(../img/image-kira.jpg);
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #D1D8DE;
+    border-radius: 50px;
+    flex-direction: row;
+    position: absolute;
+    left: -63px;
+    top: -9px;
+    background-size: 40px;
+}
+
+.child-three h4 {
+
+    display: inline;
+    margin-left: 30px;
+    position: relative;
+    left: 65px;
+    top: 26px;
+    color: #696b76;
+}
+
+.child-three h5 {
+
+    margin-left: 30px;
+    position: relative;
+    left: 65px;
+    top: 7px;
+    color: #7d889b;
+}
+
+
+.child-three .first {
+    margin-right: 20px;
+    top: 15px;
+    position: relative;
+    padding-left: 28px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #696b76;
+
+}
+
+.child-three .second {
+    margin-right: 20px;
+    top: -25px;
+    position: relative;
+    padding-left: 28px;
+    color: #7d889b;
+    font-size: 15px;
+}
+
+.child-four {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.child-four h4::before {
+    content: "";
+    background-image: url(../img/image-jeanette.jpg);
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #D1D8DE;
+    border-radius: 50px;
+    flex-direction: row;
+    position: absolute;
+    left: -63px;
+    top: -9px;
+    background-size: 40px;
+}
+
+.child-four h4 {
+
+    display: inline;
+    margin-left: 30px;
+    position: relative;
+    left: 65px;
+    top: 26px;
+    color: #696b76;
+}
+
+.child-four h5 {
+
+    margin-left: 30px;
+    position: relative;
+    left: 65px;
+    top: 7px;
+    color: #7d889b;
+}
+
+
+.child-four .first {
+    margin-right: 20px;
+    top: 15px;
+    position: relative;
+    padding-left: 28px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #696b76;
+
+}
+
+.child-four .second {
+    margin-right: 20px;
+    top: -25px;
+    position: relative;
+    padding-left: 28px;
+    color: #7d889b;
+    font-size: 15px;
+}
+
+.child-five {
+    background-color: #18202d;
+    border-radius: 20px;
+}
+
+.child-five h4::before {
+    content: "";
+    background-image: url(../img/image-patrick.jpg);
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #5e489f;
+    border-radius: 50px;
+    flex-direction: row;
+    position: absolute;
+    left: -63px;
+    top: -9px;
+    background-size: 40px;
+}
+
+.child-five h4 {
+
+    display: inline;
+    margin-left: 30px;
+    position: relative;
+    left: 65px;
+    top: 26px;
+    color: #D1D8DE;
+}
+
+.child-five h5 {
+
+    margin-left: 30px;
+    position: relative;
+    left: 65px;
+    top: 7px;
+    color: #7d889b;
+}
+
+
+.child-five .first {
+    margin-right: 20px;
+    top: 15px;
+    position: relative;
+    padding-left: 28px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #D1D8DE;
+}
+
+.child-five .second {
+    margin-right: 20px;
+    top: -25px;
+    position: relative;
+    padding-left: 28px;
+    color: #7d889b;
+    font-size: 15px;
+}
+
+
+
+@media screen and (min-width: 850px) {
+    .child-one {
+        grid-area: 1/1/2/3;
+
+    }
+
+    .child-two {
+        grid-area: 1/3/2/4;
+
+    }
+
+    .child-three {
+        grid-area: 1/4/3/4;
+
+    }
+
+    .child-four {
+        grid-area: 2/1/3/2;
+
+    }
+
+    .child-five {
+        grid-area: 2/2/3/4;
+
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:850px) {
+    .child-one {
+        grid-area: 1/1/2/3;
+
+    }
+
+    .child-two {
+        grid-area: 1/3/2/4;
+
+    }
+
+    .child-three {
+        grid-area: 2/1/3/3;
+
+    }
+
+    .child-four {
+        grid-area: 2/3/3/4;
+
+    }
+
+    .child-five {
+        grid-area: 3/1/3/4;
+
+    }
+
+}
